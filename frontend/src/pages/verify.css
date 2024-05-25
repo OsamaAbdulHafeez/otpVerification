@@ -1,0 +1,51 @@
+.verifyForm {
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: -1px 4px 25px 0px rgba(43, 41, 43, 1);
+}
+
+.verifyForm h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.verifyForm div {
+    display: flex;
+    gap: 20px;
+}
+
+.verifyForm input {
+    border: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    width: 30px;
+    text-align: center;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.verifyForm div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.verifyForm button {
+    width: fit-content;
+    background: linear-gradient(104deg, rgba(148, 73, 252, 1) 0%, rgba(38, 200, 249, 1) 90%);
+    border: none;
+    padding: 5px 30px;
+    color: white;
+    font-size: 18px;
+}

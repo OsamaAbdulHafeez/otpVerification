@@ -1,0 +1,18 @@
+.homeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+}
+.homeContainer button{
+    height: fit-content;
+    background: linear-gradient(104deg, rgba(148, 73, 252, 1) 0%, rgba(38, 200, 249, 1) 90%);
+    margin:  0px auto;
+    border: none;
+    padding: 5px 30px;
+    color: white;
+    font-size: 18px;
+}
